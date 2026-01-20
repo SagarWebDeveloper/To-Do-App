@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App- Sagar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-blue-200 min-h-screen flex flex-col">
+        <header class="bg-blue-300 shadow-md">
+            <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">Sagar</h2>
+              <div class="relative group">
+                <button
+                  class="text-black font-medium hover:text-blue-800 transition-all">Contact Now</button>
+                <div class="absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                  <a href="tel:+918439998850" class="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 hover:text-blue-500 border rounded-lg">📞 Call/WhatsApp Me
+                  </a>
+              
+                  <a href="https://mail.google.com/mail/?view=cm&to=sagarapple2017@gmail.com" class="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 hover:text-blue-500 hover:border rounded-lg " target="_blank" rel="noopener noreferrer" >📧 Email Me </a>
+                </div>
+              </div>
+          
+            </div>
+    </header>
+
+    <main class="flex-grow flex items-center justify-center">
+      <div
+        class="bg-gray-100 w-full max-w-md mx-3 sm:mx-0 p-4 sm:p-6 rounded-xl">
+        <h1 class="text-2xl font-bold text-center mb-4">Todo App by Sagar</h1>
+        <div class="flex flex-col sm:flex-row gap-2">
+          <input id="taskInput" type="text" placeholder="Add a task..." class="w-full border rounded-lg px-3 py-3 sm:py-2 focus:outline-none text-base"/>
+          <button
+            onclick="addTask()"
+            class="w-full sm:w-auto bg-blue-500 text-white px-4 py-3 sm:py-2 rounded-lg hover:bg-blue-600"> Add
+        </button>
+        </div>
+        <ul id="taskList" class="mt-4 space-y-2"></ul>
+      </div>
+    </main>
+    <footer class="bg-blue-200 text-center py-3 text-sm sm:text-base text-gray-600 shadow-[0_-2px_6px_rgba(0,0,0,0.15)]">© 2025 by Sagar. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
