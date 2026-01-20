@@ -1,2 +1,40 @@
-# To-Do-App
-A modern and responsive Todo List Application developed using HTML, Tailwind CSS, and JavaScript. The app supports task creation, completion, and deletion with data persistence via LocalStorage. Designed with a clean UI, smooth interactions, and full responsiveness across mobile, tablet, and desktop devices.
+# ✅ Todo App by Sagar
+
+A clean, responsive **Todo List Application** built using **HTML, Tailwind CSS, and Vanilla JavaScript**.  
+The app allows users to add, complete, and delete tasks with data persistence using **LocalStorage**.
+
+🌐 **Live Demo (Netlify):**  
+👉 https://YOUR-NETLIFY-LINK.netlify.app
+
+---
+
+## 📌 Features
+
+- ➕ Add new tasks
+- ✔ Mark tasks as completed
+- ❌ Delete tasks
+- 💾 Persistent data using LocalStorage
+- 📱 Fully responsive (Mobile, Tablet & Desktop)
+- 🎨 Modern UI using Tailwind CSS
+- 📞 Contact dropdown with Call & Email links
+- 🧭 Clean header & footer with shadow effects
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5**
+- **Tailwind CSS (CDN)**
+- **JavaScript (ES6)**
+- **LocalStorage**
+- **Netlify (Deployment)**
+
+---
+
+## 📷 Preview
+
+![Todo App Preview](./preview.png)
+
+*(You can add a screenshot named `preview.png` in your repo)*
+
+---
