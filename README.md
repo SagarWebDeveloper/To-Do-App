@@ -33,8 +33,5 @@ The app allows users to add, complete, and delete tasks with data persistence us
 
 ## 📷 Preview
 
-![Todo App Preview](./preview.jpg)
+![Todo App Preview](/preview.png)
 
-*(You can add a screenshot named `preview.png` in your repo)*
-
----
